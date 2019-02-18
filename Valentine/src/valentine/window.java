@@ -259,6 +259,7 @@ public class window extends javax.swing.JFrame {
         String keyThree = "loved";
         String keyFour = "great";
         String keyFive = "sucked";
+        String Meme = "meme";
 
         if (answer.toLowerCase().indexOf(keyOne.toLowerCase()) != -1) {
             responseField.setText("I'm sorry to hear that " + name);
